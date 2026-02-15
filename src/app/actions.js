@@ -35,7 +35,7 @@ function getDatabase() {
   }
 }
 
-export async function askGeminiRAG(userQuestion) {
+export async function askGeminiRAG(history,userQuestion) {
   try {
     const db = getDatabase();
 
